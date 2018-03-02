@@ -1,5 +1,6 @@
 package com.liuwei.audiodemo;
 
+import android.app.Activity;
 import android.media.AudioFormat;
 import android.media.AudioManager;
 import android.media.AudioRecord;
@@ -27,7 +28,7 @@ import java.util.concurrent.Executors;
  * Created by liuwei on 2018/2/28.
  */
 
-public class StreamActivity extends AppCompatActivity {
+public class StreamActivity extends Activity {
     TextView textView;
 
     private ExecutorService mExecutorService;

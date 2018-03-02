@@ -1,11 +1,11 @@
 package com.liuwei.audiodemo;
 
+import android.app.Activity;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -22,7 +22,7 @@ import java.util.concurrent.Executors;
  * Created by liuwei on 2018/2/28.
  */
 
-public class FileActivity extends AppCompatActivity {
+public class FileActivity extends Activity {
 
     TextView textView;
 
