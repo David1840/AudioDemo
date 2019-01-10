@@ -22,6 +22,7 @@
         </activity>
         <activity android:name=".FileActivity"/>
         <activity android:name=".StreamActivity"/>
+        <activity android:name=".MediaCodecActivity"/>
     </application>
 
 </manifest>

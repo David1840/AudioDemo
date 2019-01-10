@@ -14,12 +14,13 @@
         android:id="@+id/textViewStream"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="" />
 
     <Button
         android:id="@+id/buttonStream"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="450dp"
-        android:text="按住说话" />
+        android:layout_marginTop="50dp"
+        android:onClick="start"
+        android:text="点击录音" />
 </LinearLayout>

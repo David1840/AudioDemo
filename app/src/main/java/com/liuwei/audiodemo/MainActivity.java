@@ -20,4 +20,8 @@ public class MainActivity extends Activity {
     public void byteclick(View view) {
         startActivity(new Intent(this, StreamActivity.class));
     }
+
+    public void MediaCodecClick(View view) {
+        startActivity(new Intent(this, MediaCodecActivity.class));
+    }
 }
