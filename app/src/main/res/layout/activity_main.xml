@@ -7,19 +7,11 @@
     android:orientation="vertical"
     tools:context="com.liuwei.audiodemo.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
         android:onClick="file"
         android:text="文件模式"
         tools:layout_editor_absoluteX="148dp"
@@ -29,8 +21,10 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
         android:onClick="byteclick"
         android:text="字节流模式"
+
         tools:layout_editor_absoluteX="145dp"
         tools:layout_editor_absoluteY="277dp" />
 
@@ -38,7 +32,17 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
         android:onClick="MediaCodecClick"
+
         android:text="MediaCodec编码" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:onClick="openSL"
+        android:text="OpenSL play PCM" />
 
 </LinearLayout>

@@ -24,4 +24,14 @@ public class MainActivity extends Activity {
     public void MediaCodecClick(View view) {
         startActivity(new Intent(this, MediaCodecActivity.class));
     }
+
+    public void openSL(View view) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                OpenGLPlay openGLPlay = new OpenGLPlay();
+                openGLPlay.play();
+            }
+        }).start();
+    }
 }
