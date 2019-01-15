@@ -26,12 +26,7 @@ public class MainActivity extends Activity {
     }
 
     public void openSL(View view) {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                OpenGLPlay openGLPlay = new OpenGLPlay();
-                openGLPlay.play();
-            }
-        }).start();
+        startActivity(new Intent(this, OpenGLActivity.class));
+
     }
 }
