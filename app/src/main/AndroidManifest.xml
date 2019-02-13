@@ -23,7 +23,7 @@
         <activity android:name=".FileActivity" />
         <activity android:name=".StreamActivity" />
         <activity android:name=".MediaCodecActivity" />
-        <activity android:name=".OpenGLActivity" />
+        <activity android:name=".OpenSLActivity" />
     </application>
 
 </manifest>

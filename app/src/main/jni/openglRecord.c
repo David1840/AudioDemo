@@ -71,7 +71,7 @@ void bqRecorderCallback(SLAndroidSimpleBufferQueueItf bq, void *context) {
  * Method:    record
  * Signature: (Ljava/lang/String;)I
  */
-JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_record
+JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenSLActivity_record
         (JNIEnv *jniEnv, jobject instance, jstring path) {
     SLresult re;
     const char *file_path = (*jniEnv)->GetStringUTFChars(jniEnv, path, NULL);
@@ -186,7 +186,7 @@ JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_record
  * Method:    stopRecod
  * Signature: ()I
  */
-JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_stopRecod
+JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenSLActivity_stopRecod
         (JNIEnv *jniEnv, jobject instance) {
     LOGE("STOP record");
     if (recordItf != NULL) {

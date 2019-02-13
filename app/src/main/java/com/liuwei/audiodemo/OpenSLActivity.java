@@ -18,7 +18,7 @@ import java.util.concurrent.Executors;
  * @Create: 2019/1/11 11:40
  * @Description:
  */
-public class OpenGLActivity extends Activity {
+public class OpenSLActivity extends Activity {
     static {
         System.loadLibrary("native-lib");
     }

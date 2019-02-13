@@ -14,7 +14,7 @@ extern "C" {
  * Method:    play
  * Signature: (Ljava/lang/String;)I
  */
-JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_play
+JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenSLActivity_play
         (JNIEnv *, jobject, jstring);
 
 /*
@@ -22,7 +22,7 @@ JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_play
  * Method:    playStop
  * Signature: ()I
  */
-JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_playStop
+JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenSLActivity_playStop
         (JNIEnv *, jobject);
 
 /*
@@ -30,7 +30,7 @@ JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_playStop
  * Method:    record
  * Signature: (Ljava/lang/String;)I
  */
-JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_record
+JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenSLActivity_record
         (JNIEnv *, jobject, jstring);
 
 /*
@@ -38,7 +38,7 @@ JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_record
  * Method:    stopRecod
  * Signature: ()I
  */
-JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_stopRecod
+JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenSLActivity_stopRecod
         (JNIEnv *, jobject);
 
 #ifdef __cplusplus

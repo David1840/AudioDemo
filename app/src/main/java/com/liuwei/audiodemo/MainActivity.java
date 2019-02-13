@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
     }
 
     public void openSL(View view) {
-        startActivity(new Intent(this, OpenGLActivity.class));
+        startActivity(new Intent(this, OpenSLActivity.class));
 
     }
 }

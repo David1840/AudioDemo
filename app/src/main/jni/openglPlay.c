@@ -57,7 +57,7 @@ void pcmCallBack(SLAndroidSimpleBufferQueueItf bf, void *contex) {
  * Method:    play
  * Signature: (Ljava/lang/String;)I
  */
-JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_play
+JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenSLActivity_play
         (JNIEnv *jniEnv, jobject instance, jstring path) {
 
     const char *file_path = (*jniEnv)->GetStringUTFChars(jniEnv, path, NULL);
@@ -153,7 +153,7 @@ JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_play
  * Method:    playStop
  * Signature: ()I
  */
-JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenGLActivity_playStop
+JNIEXPORT jint JNICALL Java_com_liuwei_audiodemo_OpenSLActivity_playStop
         (JNIEnv *jniEnv, jobject instance) {
 
     return 0;
