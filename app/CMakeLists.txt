@@ -17,8 +17,8 @@ add_library( # Sets the name of the library.
         SHARED
 
         # Provides a relative path to your source file(s).
-        src/main/jni/openglPlay.c
-        src/main/jni/openglRecord.c)
+        src/main/jni/openslPlay.c
+        src/main/jni/openslRecord.c)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
